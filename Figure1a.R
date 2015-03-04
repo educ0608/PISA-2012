@@ -19,21 +19,21 @@ attach(gdp_math_scatter.rdata) # This is not strictly kosher, but it means I can
 plot(pisa_m~gdp, 
      xlim=c(0,65000), ylim=c(300,700), xaxs="i", yaxs="i",  #xaxs = i instead of r to eliminate offset
      pch=19,col="indianred4",
-     xlab='GDP per Capita in PPP 2010', ylab= 'PISA Math Average Score 2012', font.lab=2,
+     xlab='GDP per Capita in PPP 2010', ylab= 'PISA Math Average Score 2012', font.lab=1,
      data=gdp_math_scatter.rdata)
 
 # I want Vietnam to stand out in the plot
-points(4098,511,col="red",bg="red",pch=24)
-points(4098,511,col="red",bg="red",pch=25)
+points(4098,511,col="blue",bg="red",pch=24)
+points(4098,511,col="blue",bg="red",pch=25)
 
 
 
-text(4098,511,labels="Vietnam",pos=4,cex=0.75,col="red") # pos=4 means to the side
+text(4098,511,labels="Vietnam (511)",pos=4,cex=0.75,col="red") # pos=4 means to the side
 
 # Key other countries, I don't want to clutter the graph by naming all countries
 points(9555,376,col="blue",bg="blue",pch=19)
-text(9555,376,labels="Colombia",pos=4,cex=0.75,col="blue") # pos=4 means to the side
-text(4300,375,labels="Indonesia",pos=1,cex=0.75,col="blue") # pos=1 means to the bottom
+text(9555,376,labels="Colombia (376)",pos=4,cex=0.75,col="blue") # pos=4 means to the side
+text(4400,375,labels="Indonesia",pos=1,cex=0.75,col="blue") # pos=1 means to the bottom
 text(9400,360,labels="Peru",pos=4,cex=0.75,col="blue") # pos=4 means to the right side
 text(18805,613,labels="Shanghai-China",pos=1,cex=0.75) # pos=1 means to the bottom
 text(48962,531,labels="Switzerland",pos=1,cex=0.75,col="red") # pos=1 means to the bottom
