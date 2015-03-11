@@ -30,7 +30,7 @@ NROW(na.omit(T1)) # All 48483 of course
 
 # I want to separate the questionnaire common items and rotated items - first look at common items only.
 
-
+# 
 
 # Form A
 
