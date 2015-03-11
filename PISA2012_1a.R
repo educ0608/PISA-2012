@@ -61,10 +61,11 @@ stargazer(STU12_CO_VN,
           digit.separator="",
           summary=TRUE)
 
-attach(STU12_CO_VN)
-# Get Kernel Plots comparisons - Math Science Reading
+attach(STU12_CO_)
 # Need to convert country names to factors
 CNT.f <- factor(CNT, levels=c("COL", "VNM"),labels = c("Colombia", "Vietnam"))
+
+# Get Kernel Plots comparisons - Math Science Reading
 
 # SCIENCE
 # I need nbins to be 0 as I am using a smoothing factor h

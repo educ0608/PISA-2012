@@ -33,7 +33,7 @@ text(4098,511,labels="Vietnam (511)",pos=4,cex=0.75,col="red") # pos=4 means to 
 # Key other countries, I don't want to clutter the graph by naming all countries
 points(9555,376,col="blue",bg="blue",pch=19)
 text(9555,376,labels="Colombia (376)",pos=4,cex=0.75,col="blue") # pos=4 means to the side
-text(4400,375,labels="Indonesia",pos=1,cex=0.75,col="blue") # pos=1 means to the bottom
+text(4700,375,labels="Indonesia",pos=1,cex=0.75,col="blue") # pos=1 means to the bottom
 text(9400,360,labels="Peru",pos=4,cex=0.75,col="blue") # pos=4 means to the right side
 text(18805,613,labels="Shanghai-China",pos=1,cex=0.75) # pos=1 means to the bottom
 text(48962,531,labels="Switzerland",pos=1,cex=0.75,col="red") # pos=1 means to the bottom
